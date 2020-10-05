@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AADAuthorityNotFound" xml:space="preserve">
+    <value>Could not find AAD authority from headers, using default: {0}</value>
+  </data>
+  <data name="AADAuthorityOverrideFound" xml:space="preserve">
+    <value>Found AAD authority override: {0}</value>
+  </data>
+  <data name="AcquireSessionTokenFailed" xml:space="preserve">
+    <value>Failed to acquire session token: {0}</value>
+  </data>
+  <data name="AdalDeviceFlowMessage" xml:space="preserve">
+    <value>ATTENTION: User interaction required. 
+
+    **********************************************************************
+
+    To sign in, use a web browser to open the page {0} and enter the code {1} to authenticate.
+
+    **********************************************************************
+</value>
+  </data>
+  <data name="AdalDeviceFlowRequestedResource" xml:space="preserve">
+    <value>DeviceFlow: {0}</value>
+  </data>
+  <data name="AdalFileCacheDisabled" xml:space="preserve">
+    <value>ADAL FileCache disabled by environment variable, using the DefaultShared TokenCache</value>
+  </data>
+  <data name="AdalFileCacheLocation" xml:space="preserve">
+    <value>ADAL FileCache location: {0}</value>
+  </data>
+  <data name="AdalUsingAuthority" xml:space="preserve">
+    <value>Using AAD authority: {0}</value>
+  </data>
+  <data name="BuildTaskEnvVarError" xml:space="preserve">
+    <value>This credential provider must be run under the Team Build tasks for NuGet. Appropriate environment variables must be set.</value>
+  </data>
+  <data name="BuildTaskFailedToAuthenticate" xml:space="preserve">
+    <value>Failed to authenticate to {0} from your project collection</value>
+  </data>
+  <data name="BuildTaskMatchedPrefix" xml:space="preserve">
+    <value>Matched prefix: {0}</value>
+  </data>
+  <data name="BuildTaskNoPrefixMatch" xml:space="preserve">
+    <value>This provider only handles URIs from the build's Team Project Collection</value>
+  </data>
+  <data name="BuildTaskUriPrefixes" xml:space="preserve">
+    <value>URI Prefixes:</value>
+  </data>
+  <data name="CachedSessionTokenNotFound" xml:space="preserve">
+    <value>Could not find cached SessionToken for {0}</value>
+  </data>
+  <data name="CachingSessionToken" xml:space="preserve">
+    <value>Caching SessionToken for {0}</value>
+  </data>
+  <data name="CommandLineArgs" xml:space="preserve">
+    <value>Command-line v{0}: {1}</value>
+  </data>
+  <data name="CouldNotParseAADAuthorityOverride" xml:space="preserve">
+    <value>Could not parse AAD authority override: {0}</value>
+  </data>
+  <data name="CouldNotParseSessionTimeOverride" xml:space="preserve">
+    <value>Could not parse Session Time override: {0}</value>
+  </data>
+  <data name="CreateSessionTokenActivityId" xml:space="preserve">
+    <value>SPS CreateSessionToken Activity ID: {0}</value>
+  </data>
+  <data name="CreatingProgressReporter" xml:space="preserve">
+    <value>Creating a progress reporter with interval: {0}</value>
+  </data>
+  <data name="DPAPIUnavailableNonWindows" xml:space="preserve">
+    <value>DPAPI not available on non-Windows platforms, using the DefaultShared TokenCache</value>
+  </data>
+  <data name="FaultedOnMessage" xml:space="preserve">
+    <value>Faulted on message: {0}</value>
+  </data>
+  <data name="FoundAADAuthorityFromHeaders" xml:space="preserve">
+    <value>Found AAD Authority from 401 headers: {0}</value>
+  </data>
+  <data name="FoundCachedSessionToken" xml:space="preserve">
+    <value>Found cached SessionToken for {0}</value>
+  </data>
+  <data name="FoundHostsInEnvironment" xml:space="preserve">
+    <value>Found hosts in environment to add to {0}</value>
+  </data>
+  <data name="HandlingAuthRequest" xml:space="preserve">
+    <value>Handling auth request, Uri: {0}, IsRetry: {1}, IsNonInteractive: {2}, CanShowDialog: {3}</value>
+  </data>
+  <data name="HandlingRequest" xml:space="preserve">
+    <value>Handling '{0}' '{1}'. Time elapsed in ms: {2} - Payload: {3}</value>
+  </data>
+  <data name="InvalidatingCachedSessionToken" xml:space="preserve">
+    <value>Invalidating SessionToken cache for {0}</value>
+  </data>
+  <data name="IsRetry" xml:space="preserve">
+    <value>IsRetry: {0}</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PluginTimedOut" xml:space="preserve">
+    <value>Timed out waiting for plug-in operations to complete</value>
+  </data>
+  <data name="Redacted" xml:space="preserve">
+    <value>[REDACTED]</value>
+  </data>
+  <data name="RequestUriNull" xml:space="preserve">
+    <value>Request uri cannot be null</value>
+  </data>
+  <data name="RunningInPlugin" xml:space="preserve">
+    <value>Running in plug-in mode</value>
+  </data>
+  <data name="RunningInStandAlone" xml:space="preserve">
+    <value>Running in stand-alone mode</value>
+  </data>
+  <data name="SendingResponse" xml:space="preserve">
+    <value>Sending response: '{0}' '{1}'. Time elapsed in ms: {2}</value>
+  </data>
+  <data name="SessionTokenCacheDisabled" xml:space="preserve">
+    <value>SessionToken cache disabled by environment</value>
+  </data>
+  <data name="SessionTokenCacheLocation" xml:space="preserve">
+    <value>SessionToken cache location: {0}</value>
+  </data>
+  <data name="SkippingCredentialProvider" xml:space="preserve">
+    <value>Skipping {0}, cannot provide credentials for {1}</value>
+  </data>
+  <data name="SPSAuthEndpointException" xml:space="preserve">
+    <value>Exception when fetching the authorization endpoint: {0}</value>
+  </data>
+  <data name="SPSAuthEndpointNotFound" xml:space="preserve">
+    <value>Could not find SPS authorization endpoint for {0}</value>
+  </data>
+  <data name="Uri" xml:space="preserve">
+    <value>URI: {0}</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="VSTSCreateSessionException" xml:space="preserve">
+    <value>Exception trying to generate Azure DevOps token: {0}, message: {1}, stack: {2}</value>
+  </data>
+  <data name="VSTSCredentialsNotFound" xml:space="preserve">
+    <value>Could not obtain credentials for {0}</value>
+  </data>
+  <data name="VSTSSessionTokenCreated" xml:space="preserve">
+    <value>Found SessionToken for {0}</value>
+  </data>
+  <data name="VSTSSessionTokenValidity" xml:space="preserve">
+    <value>Requesting a {0} token valid for duration {1}, valid until {2} UTC. Note that the generated token may have different validity than requested.</value>
+  </data>
+  <data name="EnvironmentVariableHelp" xml:space="preserve">
+    <value>List of Environment Variables
+    The following is a list of environment variables that can be used to modify the
+    behavior of the credential provider. They may be used for workarounds but their
+    use is not supported. Use at your own risk.
+
+Log Path
+    {0}
+        Absolute path to a log file where the provider will write log messages.
+
+Session Token Cache Enabled
+    {1}
+        Boolean to enable/disable the Session Token cache.
+
+ADAL Authority
+    {2}
+        Set to override the authority used when fetching an ADAL token.
+        e.g. https://login.microsoftonline.com
+
+ADAL Token File Cache Enabled
+    {3}
+        Boolean to enable/disable the ADAL token cache. Disabled by default.
+
+PPE ADAL Hosts
+    {4}
+        Semi-colon separated list of hosts that should use the PPE environment
+        when fetching ADAL tokens. Should only be used for testing/development
+        environments such as DevFabric.
+
+Supported Hosts
+    {5}
+        Semi-colon separated list of hosts that the ADAL provider supports.
+
+Session Token Time Validity
+    {6}
+        Time in minutes the generated Session Tokens will be valid for.
+        The default for Personal Access Tokens is 90 days.
+        The default for JWT (self-describing) tokens is 4 hours.
+        The maximum allowed validity period for JWT tokens is 24 hours.
+
+Token Type
+    {7}
+        Specify 'Compact' to generate a Personal Access Token, which may
+        have a long validity period as it can easily be revoked from the UI,
+        and sends a notification mail on creation.
+        Specify 'SelfDescribing' to generate a shorter-lived JWT token,
+        which does not appear in any UI or notifications
+        and is more difficult to revoke.
+        By default PATs are generated rather than JWTs,
+        unless authentication can be performed non-interactively.
+
+Build Provider URI Prefixes
+    {8}
+        Semi-colon separated list of hosts the build provider supports.
+
+Build Provider Access Token
+    {9}
+        The Personal Access Token that will be returned as credentials by
+        the build provider.
+
+Build Provider Service Endpoint Json
+    {10}
+        Json that contains an array of service endpoints, usernames and 
+        access tokens to authenticate endpoints in nuget.config.
+        Example: {{"endpointCredentials": [{{"endpoint":"http://example.index.json",
+        "username":"optional", "password":"accesstoken"}}]}}
+
+Cache Location
+    The Credential Provider uses the following paths to cache credentials. If
+    deleted, the credential provider will re-create them but any credentials
+    will need to be provided again.
+
+    ADAL Token Cache
+    {11}
+
+    Session Token Cache
+    {12}
+
+Windows Integrated Authentication
+    {13}
+        Boolean to enable/disable using silent Windows Integrated Authentication
+        to authenticate as the logged-in user. Enabled by default.
+
+Device Flow Authentication Timeout
+    {14}
+        Device Flow authentication timeout in seconds. Default is 90 seconds.
+
+NuGet workarounds
+    {15}
+        Set to "true" or "false" to override any other sources of the 
+        CanShowDialog parameter</value>
+  </data>
+  <data name="CredentialParseFailure" xml:space="preserve">
+    <value>Failed to parse credentials</value>
+  </data>
+  <data name="EndpointCredentialCheck" xml:space="preserve">
+    <value>Checking credentials for endpoint: {0}</value>
+  </data>
+  <data name="EndpointParseFailure" xml:space="preserve">
+    <value>Failed to parse endpoint</value>
+  </data>
+  <data name="NoEndpointMatch" xml:space="preserve">
+    <value>No provided endpoint matched the given uri</value>
+  </data>
+  <data name="NoEndpointsFound" xml:space="preserve">
+    <value>No feed endpoints found</value>
+  </data>
+  <data name="ParsingJson" xml:space="preserve">
+    <value>Parsing json</value>
+  </data>
+  <data name="VstsBuildTaskExternalCredentialCredentialProviderError" xml:space="preserve">
+    <value>Error happened while parsing json: {0}</value>
+  </data>
+  <data name="BuildTaskEndpointEnvVarError" xml:space="preserve">
+    <value>This credential provider must be run under the Team Build tasks for NuGet with external endpoint credentials. Appropriate environment variable needs to be set.</value>
+  </data>
+  <data name="AcquireBearerTokenSuccess" xml:space="preserve">
+    <value>Acquired bearer token using '{0}'</value>
+  </data>
+  <data name="AttemptingToAcquireBearerTokenUsingProvider" xml:space="preserve">
+    <value>Attempting to acquire bearer token using provider '{0}'</value>
+  </data>
+  <data name="BearerTokenProviderException" xml:space="preserve">
+    <value>Bearer token provider '{0}' failed with exception:\n{1}</value>
+  </data>
+  <data name="BearerTokenProviderReturnedNull" xml:space="preserve">
+    <value>Bearer token provider '{0}' didn't acquire a token</value>
+  </data>
+  <data name="ExchangingBearerTokenForSessionToken" xml:space="preserve">
+    <value>Attempting to exchange the bearer token for an Azure DevOps session token.</value>
+  </data>
+  <data name="NotRunningBearerTokenProvider" xml:space="preserve">
+    <value>Not running bearer token provider '{0}'</value>
+  </data>
+  <data name="DeviceFlowTimedOut" xml:space="preserve">
+    <value>Device flow authentication failed. User was presented with device flow, but didn't react within {0} seconds.</value>
+  </data>
+  <data name="CouldNotParseDeviceFlowTimeoutOverride" xml:space="preserve">
+    <value>Could not parse Device Flow Timeout override: {0}</value>
+  </data>
+  <data name="BuildTaskCredProviderIsUsedError" xml:space="preserve">
+    <value>This credential provider must not run if any build task environment variables are set. Variables: VSS_NUGET_URI_PREFIXES, VSS_NUGET_ACCESSTOKEN, VSS_NUGET_EXTERNAL_FEED_ENDPOINTS</value>
+  </data>
+  <data name="BuildTaskEndpointNoMatchingUrl" xml:space="preserve">
+    <value>Environment variable VSS_NUGET_EXTERNAL_FEED_ENDPOINTS did not have credentials for endpoint {0}</value>
+  </data>
+  <data name="BuildTaskEndpointMatchingUrlFound" xml:space="preserve">
+    <value>Found credentials for endpoint {0}</value>
+  </data>
+  <data name="CancelMessage" xml:space="preserve">
+    <value>Canceling credential provider</value>
+  </data>
+  <data name="ResponseHandlerException" xml:space="preserve">
+    <value>Caught exception processing {0}  (RequestId: {1})</value>
+  </data>
+  <data name="CacheException" xml:space="preserve">
+    <value>Exception happened when trying to get cached token. Invalidating cache. Message: {0}</value>
+  </data>
+  <data name="BuildTaskNoMatchingPrefixes" xml:space="preserve">
+    <value>none</value>
+  </data>
+  <data name="RequestHandlerCancelingExceptionMessage" xml:space="preserve">
+    <value>Ignoring a cancellation exception during request handling. Exception: {0}, Message: {1}</value>
+  </data>
+  <data name="ShuttingDown" xml:space="preserve">
+    <value>Credential provider shutting down.</value>
+  </data>
+  <data name="StartRequestHandlerStopwatch" xml:space="preserve">
+    <value>Starting stopwatch for {1} {2}</value>
+  </data>
+  <data name="TimeElapsedAfterSendingResponse" xml:space="preserve">
+    <value>Time elapsed in milliseconds after sending response '{0}' '{1}': {2}</value>
+  </data>
+  <data name="SessionTokenCacheMutexFail" xml:space="preserve">
+    <value>Unable to gain a lock on the credential cache.</value>
+  </data>
+  <data name="SessionTokenCacheMutexMiss" xml:space="preserve">
+    <value>Another instance of CredentialProvider is accessing the credential cache, waiting for it to become available.</value>
+  </data>
+  <data name="LogStartsAt" xml:space="preserve">
+    <value>Log starts at {0}</value>
+  </data>
+  <data name="WhileShuttingDown" xml:space="preserve">
+    <value>While the plugin was shutting down:</value>
+  </data>
+  <data name="CredentialsNotFound" xml:space="preserve">
+    <value>Unable to acquire credentials.</value>
+  </data>
+  <data name="ForcingCanShowDialogFromTo" xml:space="preserve">
+    <value>Forcing canShowDialog from {0} to {1} due to setting from environment variable</value>
+  </data>
+  <data name="UIFlowStarted" xml:space="preserve">
+    <value>Using the {0}  flow for uri {1}. User sign-in required in a pop-up authentication window.</value>
+  </data>
+  <data name="HostAccepted" xml:space="preserve">
+    <value>Matched well-known Azure DevOps Service hostname: {0}</value>
+  </data>
+  <data name="OnPremDetected" xml:space="preserve">
+    <value>Detected an on premise Azure DevOps Server.</value>
+  </data>
+  <data name="UsingCredentialProvider" xml:space="preserve">
+    <value>Using {0} to try to get credentials for {1}.</value>
+    <comment>{0} - credential provider name, {1} - Uri</comment>
+  </data>
+  <data name="ValidHeaders" xml:space="preserve">
+    <value>Detected a hosted Azure DevOps Service.</value>
+  </data>
+  <data name="ExternalUri" xml:space="preserve">
+    <value>{0} is not an Azure Artifacts feed.</value>
+  </data>
+</root>
